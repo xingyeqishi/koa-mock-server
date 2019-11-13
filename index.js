@@ -19,7 +19,7 @@ app.use(async ctx => {
             return;
         } else {
 						let result = await axios.request({
-								 url: "https://x.threatbook.cn" + url,
+								 url: "https://x.sxs.cn" + url,
 								 method: "get"
 						});
             if (result.data.response_code === 0) {
